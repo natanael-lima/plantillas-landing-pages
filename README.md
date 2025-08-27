@@ -44,4 +44,4 @@ Repositorio de **plantillas web y componentes frontend** para crear **landing pa
 
 ## 📝 Autor
 
-Hecho con ❤️ por **Natanael Lima**.
+Hecho por **Natanael Lima**.
