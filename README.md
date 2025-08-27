@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# Plantillas Web y Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositorio de **plantillas web y componentes frontend** para crear **landing pages** y sitios web modernos. Este repositorio está desarrollado por **Natanael Lima** y tiene como objetivo servir como referencia y base para proyectos de diseño web, cubriendo distintos tipos de páginas y estilos visuales.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tecnologías
 
-## Expanding the ESLint configuration
+- **Next.js** – Framework React para aplicaciones web modernas y optimizadas.
+- **React** – Librería de JavaScript para construir interfaces de usuario interactivas.
+- **Tailwind CSS** – Framework CSS utilitario para diseño rápido, responsivo y moderno.
+- **Lucide React** – Librería de iconos vectoriales para React.
+- **HTML / CSS / JavaScript** – Base de cualquier proyecto frontend.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🎨 Propósito
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Proveer **plantillas listas para usar** en diferentes tipos de landing pages: productos, servicios, portfolios, startups, e-commerce, entre otros.
+- Facilitar la **consistencia visual** y la reutilización de componentes.
+- Servir como inspiración y guía para diseñadores y desarrolladores frontend.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 📂 Contenido del Repositorio
+
+- **Components/** – Componentes React reutilizables como botones, cards, menús, etc.
+- **Pages/** – Ejemplos de páginas y estructuras de landing pages.
+- **Styles/** – Configuraciones y utilidades de Tailwind CSS.
+- **Public/** – Recursos estáticos: imágenes, iconos y assets.
+- **Utils/** – Funciones y helpers de JavaScript para el frontend.
+
+---
+
+## 🌟 Características
+
+- **Diseño moderno y responsivo** para cualquier dispositivo.
+- **Componentes modulares** que pueden integrarse en distintos proyectos.
+- Uso de **Tailwind CSS** para un estilo rápido y consistente.
+- Integración de **iconos con Lucide React**.
+- Adaptable a múltiples tipos de web: corporativa, personal, comercial o creativa.
+
+---
+
+## 📝 Autor
+
+Hecho con ❤️ por **Natanael Lima**.
