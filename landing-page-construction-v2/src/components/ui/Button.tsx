@@ -4,7 +4,7 @@ type ButtonProps = {
   children: React.ReactNode;
   onClick?: () => void;
   type?: "button" | "submit" | "reset";
-  variant?: "default" | "outline";
+  variant?: "default" | "outline" | "colorfull";
   size?: "sm" | "md" | "lg";
   className?: string;
 };
@@ -23,7 +23,7 @@ export const Button: React.FC<ButtonProps> = ({
   const variants = {
     default: "bg-amber-500/85 text-white hover:bg-amber-600 focus:ring-blue-400",
     outline: "border border-gray-400/50 text-gray-200 hover:bg-gray-100/20 focus:ring-gray-400",
-    outline2: "border border-gray-300 text-gray-700 hover:bg-gray-100 focus:ring-gray-400",
+    colorfull: "bg-amber-100 hover:bg-amber-200 py-2 text-gray-700  focus:ring-gray-400",
   };
 
   const sizes = {

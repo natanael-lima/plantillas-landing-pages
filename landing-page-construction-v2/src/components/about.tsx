@@ -3,7 +3,7 @@ import { Award, Users, Clock, Shield } from "lucide-react"
 
 export function About() {
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Acerca de Nosotros</h2>
@@ -15,10 +15,10 @@ export function About() {
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Left Column - Two Cards */}
           <div className="lg:col-span-2 space-y-8">
-            <Card className="p-8">
+            <Card className="p-8 border-amber-300/30 bg-linear-to-bl from-amber-400/40 to-amber-800/5 border">
               <div className="flex items-start gap-6">
-                <div className="p-3 bg-primary/10 rounded-lg flex-shrink-0">
-                  <Award className="w-8 h-8 text-primary" />
+                <div className="p-3 bg-amber-200/10 rounded-lg flex-shrink-0">
+                  <Award className="w-8 h-8 text-amber-50" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-card-foreground mb-4">Excelencia Reconocida</h3>
@@ -29,26 +29,26 @@ export function About() {
                   </p>
                   <div className="mt-6 grid grid-cols-3 gap-4 text-center">
                     <div>
-                      <div className="text-2xl font-bold text-primary">200+</div>
-                      <div className="text-sm text-muted-foreground">Proyectos</div>
+                      <div className="text-2xl font-bold text-amber-100/70">200+</div>
+                      <div className="text-sm text-white/80">Proyectos</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-primary">20+</div>
-                      <div className="text-sm text-muted-foreground">Años</div>
+                      <div className="text-2xl font-bold text-amber-100/70">20+</div>
+                      <div className="text-sm text-white/80">Años</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-primary">100%</div>
-                      <div className="text-sm text-muted-foreground">Satisfacción</div>
+                      <div className="text-2xl font-bold text-amber-100/70">100%</div>
+                      <div className="text-sm text-white/80">Satisfacción</div>
                     </div>
                   </div>
                 </div>
               </div>
             </Card>
 
-            <Card className="p-8">
+            <Card className="p-8 border-amber-500/40 bg-linear-to-bl from-amber-700/40 to-amber-800/5 border">
               <div className="flex items-start gap-6">
-                <div className="p-3 bg-primary/10 rounded-lg flex-shrink-0">
-                  <Users className="w-8 h-8 text-primary" />
+                <div className="p-3 bg-amber-200/10 rounded-lg flex-shrink-0">
+                  <Users className="w-8 h-8 ttext-amber-50" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-card-foreground mb-4">Equipo Profesional</h3>
@@ -64,14 +64,14 @@ export function About() {
 
           {/* Right Column - Large Image */}
           <div className="lg:col-span-1">
-            <Card className="overflow-hidden h-full">
+            <Card className="overflow-hidden h-full bg-amber-700">
               <div className="relative h-full min-h-[500px]">
                 <img
-                  src="/construction-team-working-on-modern-building-site-.png"
+                  src="https://pollackpeacebuilding.com/wp-content/uploads/2024/11/construction-.jpg"
                   alt="Equipo de Constructora Osvaldo"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+                <div className="absolute inset-0 bg-black/45" />
                 <div className="absolute bottom-6 left-6 right-6">
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">

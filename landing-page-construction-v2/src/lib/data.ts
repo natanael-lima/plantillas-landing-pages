@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronUp, Home, Building2, Hammer, Wrench, PaintBucket, Zap } from "lucide-react"
+import { Home, Building2, Hammer, Wrench, PaintBucket, Zap } from "lucide-react"
 export const services = [
   {
     id: 1,
@@ -50,42 +50,42 @@ export const services = [
     id: 1,
     title: "Casa Moderna Los Altos",
     category: "Residencial",
-    image: "/minimalist-house.png",
+    image: "https://i.ytimg.com/vi/0OY1G3mQyxs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAVuWcL6g8dfIHm5ieuV2U_nhAieg",
     description: "Casa unifamiliar de 250m² con diseño contemporáneo y acabados de lujo.",
   },
   {
     id: 2,
     title: "Edificio Corporativo Centro",
     category: "Comercial",
-    image: "/modern-office-building-with-glass-facade-and-steel.png",
+    image: "https://panelyacanalados.com/wp-content/uploads/2024/02/casa-de-concreto-y-ladrillo-en-construccion.jpg",
     description: "Edificio de oficinas de 8 pisos con fachada de cristal y tecnología inteligente.",
   },
   {
     id: 3,
     title: "Remodelación Villa Esperanza",
     category: "Remodelación",
-    image: "/renovated-traditional-house-with-modern-touches-an.png",
+    image: "https://media.istockphoto.com/id/1015387276/es/foto/hombre-en-un-trabajo-conjunto.jpg?s=612x612&w=0&k=20&c=5OPDHqdlcugsMq1AvFhHtiihDuBk1k_yhLW4M4ZU8jU=",
     description: "Renovación completa de casa tradicional con toques modernos y jardín paisajístico.",
   },
   {
     id: 4,
     title: "Complejo Residencial Palmas",
     category: "Desarrollo",
-    image: "/residential-complex-with-multiple-houses-and-green.png",
+    image: "https://constructorarey.com/wp-content/uploads/2022/06/estructura-casa.jpg",
     description: "Desarrollo habitacional de 24 unidades con áreas verdes y amenidades.",
   },
   {
     id: 5,
     title: "Centro Comercial Plaza Norte",
     category: "Comercial",
-    image: "/modern-shopping-center-with-curved-architecture-an.png",
+    image: "https://previews.123rf.com/images/thefutureis/thefutureis1509/thefutureis150900092/45935851-interior-of-a-unfinished-red-brick-house-under-construction-closeup-on-windows-hole-construction.jpg",
     description: "Centro comercial de 15,000m² con arquitectura innovadora y espacios abiertos.",
   },
   {
     id: 6,
     title: "Casa Ecológica Montaña",
     category: "Sustentable",
-    image: "/eco-friendly-house-with-solar-panels-and-natural-m.png",
+    image: "https://www.soriamodular.com/wp-content/uploads/2016/06/foto-blog.jpg",
     description: "Vivienda sustentable con paneles solares y materiales ecológicos.",
   },
 ]

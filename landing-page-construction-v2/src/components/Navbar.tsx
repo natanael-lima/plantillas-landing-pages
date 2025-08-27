@@ -20,11 +20,11 @@ export default function Navbar() {
         <div className="text-2xl font-bold text-amber-200 md:text-white">Logo</div>
 
         {/* Desktop menu */}
-        <nav className="hidden md:flex items-center gap-8 text-white">
-          <a href="#home" className="hover:text-amber-400 transition-colors">Home</a>
-          <a href="#services" className="hover:text-amber-400 transition-colors">Services</a>
-          <a href="#portfolio" className="hover:text-amber-400 transition-colors">Portfolio</a>
-          <a href="#tech" className="hover:text-amber-400 transition-colors">Tech</a>
+        <nav className="hidden md:flex items-center gap-8 text-white font-medium">
+          <a href="#home" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Home</a>
+          <a href="#services" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Services</a>
+          <a href="#portfolio" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Portfolio</a>
+          <a href="#tech" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Tech</a>
           <button className="ml-6 px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors">
             Contacto
           </button>

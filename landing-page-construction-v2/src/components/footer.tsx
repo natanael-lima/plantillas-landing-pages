@@ -2,7 +2,7 @@ import { Building2, Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-sidebar text-sidebar-foreground py-12 px-6">
+    <footer className="bg-sidebar text-white py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {/* Company Info */}
@@ -11,10 +11,10 @@ export function Footer() {
               <Building2 className="w-8 h-8 text-sidebar-primary" />
               <span className="text-xl font-bold">Constructora Osvaldo</span>
             </div>
-            <p className="text-sm text-sidebar-foreground/80 text-pretty">
+            <p className="text-sm text-white/70 ">
               Construyendo el futuro con calidad, innovación y compromiso. Tu socio confiable en cada proyecto.
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 text-white/70 ">
               <Facebook className="w-5 h-5 text-sidebar-foreground/60 hover:text-sidebar-primary cursor-pointer transition-colors" />
               <Instagram className="w-5 h-5 text-sidebar-foreground/60 hover:text-sidebar-primary cursor-pointer transition-colors" />
               <Linkedin className="w-5 h-5 text-sidebar-foreground/60 hover:text-sidebar-primary cursor-pointer transition-colors" />
@@ -25,7 +25,7 @@ export function Footer() {
           {/* Services */}
           <div className="space-y-4">
             <h3 className="font-semibold text-sidebar-foreground">Servicios</h3>
-            <ul className="space-y-2 text-sm text-sidebar-foreground/80">
+            <ul className="space-y-2 text-sm text-white/70 ">
               <li>
                 <a href="#" className="hover:text-sidebar-primary transition-colors">
                   Construcción Residencial
@@ -52,7 +52,7 @@ export function Footer() {
           {/* Quick Links */}
           <div className="space-y-4">
             <h3 className="font-semibold text-sidebar-foreground">Enlaces Rápidos</h3>
-            <ul className="space-y-2 text-sm text-sidebar-foreground/80">
+            <ul className="space-y-2 text-sm text-white/70">
               <li>
                 <a href="#" className="hover:text-sidebar-primary transition-colors">
                   Acerca de Nosotros
@@ -79,7 +79,7 @@ export function Footer() {
           {/* Contact */}
           <div className="space-y-4">
             <h3 className="font-semibold text-sidebar-foreground">Contacto</h3>
-            <ul className="space-y-2 text-sm text-sidebar-foreground/80">
+            <ul className="space-y-2 text-sm text-white/70">
               <li>+1 (555) 123-4567</li>
               <li>info@constructoraosvaldo.com</li>
               <li>
@@ -92,7 +92,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-sidebar-border mt-8 pt-8 text-center">
-          <p className="text-sm text-sidebar-foreground/60">
+          <p className="text-sm text-white/50">
             © 2024 Constructora Osvaldo. Todos los derechos reservados.
           </p>
         </div>

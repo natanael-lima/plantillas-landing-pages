@@ -4,8 +4,8 @@ import { Phone, Mail, MapPin } from "lucide-react"
 
 export function Contact() {
   return (
-    <section className="py-20 px-6 bg-muted/30">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-6  text-white">
+      <div className="max-w-6xl mx-auto ">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Contáctanos</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
@@ -15,8 +15,8 @@ export function Contact() {
 
         <div className="grid gap-8 lg:grid-cols-2">
           {/* Left Side - Contact Form */}
-          <Card className="p-8">
-            <h3 className="text-2xl font-semibold text-card-foreground mb-6">
+          <Card className="p-8 bg-neutral-600/20">
+            <h3 className="text-2xl font-semibold0 mb-6">
               Suscríbete para recibir actualizaciones
             </h3>
             <form className="space-y-6">
@@ -60,18 +60,18 @@ export function Contact() {
 
           {/* Right Side - Contact Info with Image */}
           <div className="relative">
-            <Card className="overflow-hidden h-full">
+            <Card className="overflow-hidden h-full ">
               <div className="relative h-full min-h-[600px]">
                 <img
-                  src="/modern-construction-office-building-with-glass-win.png"
+                  src="https://i.pinimg.com/1200x/38/2c/c1/382cc1d7b6c7d0bb9fd6c83b6c8a40fd.jpg"
                   alt="Oficinas Constructora Osvaldo"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-background/70 backdrop-blur-sm" />
+                <div className="absolute inset-0 bg-background/70 " />
 
                 {/* Contact Information Overlay */}
-                <div className="absolute inset-0 p-8 flex flex-col justify-center">
-                  <div className="bg-card/90 backdrop-blur-md rounded-lg p-8 space-y-8">
+                <div className="absolute inset-0 p-8 flex justify-center">
+                  <div className="bg-black/15 backdrop-blur-md border border-white/20 p-6 w-full rounded-2xl shadow-lg">
                     <h3 className="text-2xl font-semibold text-card-foreground mb-6">Información de Contacto</h3>
 
                     <div className="space-y-6">
