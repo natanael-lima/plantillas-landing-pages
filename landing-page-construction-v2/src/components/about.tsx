@@ -15,10 +15,10 @@ export function About() {
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Left Column - Two Cards */}
           <div className="lg:col-span-2 space-y-8">
-            <Card className="p-8 border-amber-300/30 bg-linear-to-bl from-amber-400/40 to-amber-800/5 border">
+            <Card className="p-8 border-neutral-300/10 bg-linear-to-bl from-neutral-400/40 to-gray-500/20 border">
               <div className="flex items-start gap-6">
-                <div className="p-3 bg-amber-200/10 rounded-lg flex-shrink-0">
-                  <Award className="w-8 h-8 text-amber-50" />
+                <div className="p-3 bg-neutral-200/10 rounded-lg flex-shrink-0">
+                  <Award className="w-8 h-8 text-neutral-50" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-card-foreground mb-4">Excelencia Reconocida</h3>
@@ -29,15 +29,15 @@ export function About() {
                   </p>
                   <div className="mt-6 grid grid-cols-3 gap-4 text-center">
                     <div>
-                      <div className="text-2xl font-bold text-amber-100/70">200+</div>
+                      <div className="text-2xl font-bold text-neutral-100/70">200+</div>
                       <div className="text-sm text-white/80">Proyectos</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-amber-100/70">20+</div>
+                      <div className="text-2xl font-bold text-neutral-100/70">20+</div>
                       <div className="text-sm text-white/80">Años</div>
                     </div>
                     <div>
-                      <div className="text-2xl font-bold text-amber-100/70">100%</div>
+                      <div className="text-2xl font-bold text-neutral-100/70">100%</div>
                       <div className="text-sm text-white/80">Satisfacción</div>
                     </div>
                   </div>
@@ -45,10 +45,10 @@ export function About() {
               </div>
             </Card>
 
-            <Card className="p-8 border-amber-500/40 bg-linear-to-bl from-amber-700/40 to-amber-800/5 border">
+            <Card className="p-8 border-neutral-500/10 bg-linear-to-bl from-neutral-400/40 to-gray-500/20 border">
               <div className="flex items-start gap-6">
-                <div className="p-3 bg-amber-200/10 rounded-lg flex-shrink-0">
-                  <Users className="w-8 h-8 ttext-amber-50" />
+                <div className="p-3 bg-neutral-200/10 rounded-lg flex-shrink-0">
+                  <Users className="w-8 h-8 text-neutral-50" />
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-card-foreground mb-4">Equipo Profesional</h3>
@@ -64,7 +64,7 @@ export function About() {
 
           {/* Right Column - Large Image */}
           <div className="lg:col-span-1">
-            <Card className="overflow-hidden h-full bg-amber-700">
+            <Card className="overflow-hidden h-full bg-red-400">
               <div className="relative h-full min-h-[500px]">
                 <img
                   src="https://pollackpeacebuilding.com/wp-content/uploads/2024/11/construction-.jpg"

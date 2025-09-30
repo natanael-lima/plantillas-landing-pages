@@ -7,15 +7,15 @@ export default function Work() {
     <section className="py-20 bg-slate-100">
         <div className="max-w-5xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">Nuestros Proyectos</h2>
-            <p className="text-xl text-slate-300 max-w-2xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold  text-slate-950/80 mb-6">Nuestros Proyectos</h2>
+            <p className="text-xl text-slate-900/60 max-w-2xl mx-auto">
               Cada proyecto refleja nuestro compromiso con la excelencia y la innovación
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
-              <div key={index} className="group bg-slate-800/50 rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-500">
+              <div key={index} className="group bg-white rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all duration-500 shadow-lg">
                 <div className="relative overflow-hidden">
                   <img
                     src={project.image}
@@ -28,9 +28,9 @@ export default function Work() {
                   </button>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-                  <p className="text-slate-300 mb-4">{project.description}</p>
-                  <button className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 font-semibold transition-colors">
+                  <h3 className="text-xl font-bold text-gray-700 mb-2">{project.title}</h3>
+                  <p className="text-gray-500/50 mb-4">{project.description}</p>
+                  <button className="flex items-center space-x-2 text-cyan-700 hover:text-cyan-600 font-semibold transition-colors cursor-pointer">
                     <span>Ver proyecto</span>
                     <ArrowRight size={16} />
                   </button>

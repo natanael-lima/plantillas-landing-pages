@@ -28,7 +28,7 @@ export function Services() {
             const isOpen = openService === service.id
 
             return (
-              <Card key={service.id} className="overflow-hidden  border-amber-200/25 bg-linear-to-bl from-amber-500/20 to-amber-500/5 border shadow-sm p-4">
+              <Card key={service.id} className="overflow-hidden  border-neutral-200/25 bg-linear-to-bl from-neutral-500/20 to-gray-500/5 border shadow-sm p-4">
                 <button
                   onClick={() => toggleService(service.id)}
                   className="w-full p-6 text-left hover:bg-muted/50 transition-colors"
@@ -36,25 +36,25 @@ export function Services() {
                   <div className="flex items-center justify-between ">
                     <div className="flex items-center gap-3">
                       <div className="p-2 bg-primary/10 rounded-lg">
-                        <Icon className="w-5 h-5 text-amber-50" />
+                        <Icon className="w-5 h-5 text-neutral-50" />
                       </div>
-                      <h3 className="font-semibold text-amber-50">{service.title}</h3>
+                      <h3 className="font-semibold text-neutral-50">{service.title}</h3>
                     </div>
                     {isOpen ? (
-                      <ChevronUp className="w-5 h-5 text-amber-50" />
+                      <ChevronUp className="w-5 h-5 text-neutral-50" />
                     ) : (
-                      <ChevronDown className="w-5 h-5 text-amber-50" />
+                      <ChevronDown className="w-5 h-5 text-neutral-50" />
                     )}
                   </div>
                 </button>
 
                 {isOpen && (
                   <div className="px-6 pb-6 space-y-4">
-                    <p className="text-sm text-amber-50/50">{service.description}</p>
-                    <ul className="space-y-2">
+                    <p className="text-sm text-neutral-50/70">{service.description}</p>
+                    <ul className="space-y-2 list-disc list-inside">
                       {service.features.map((feature, index) => (
-                        <li key={index} className="text-sm text-amber-50/50 flex items-center gap-2">
-                          <div className="w-1.5 h-1.5 bg-primary rounded-full" />
+                        <li key={index} className="text-sm text-neutral-50/70 ">
+                          
                           {feature}
                         </li>
                       ))}

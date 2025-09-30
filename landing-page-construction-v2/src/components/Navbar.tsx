@@ -21,17 +21,17 @@ export default function Navbar() {
 
         {/* Desktop menu */}
         <nav className="hidden md:flex items-center gap-8 text-white font-medium">
-          <a href="#home" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Home</a>
+          <a href="#home" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Inicio</a>
           <a href="#services" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Services</a>
-          <a href="#portfolio" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Portfolio</a>
-          <a href="#tech" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Tech</a>
+          <a href="#portfolio" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Trabajos</a>
+          <a href="#tech" className="hover:text-amber-400 transition-colors hover:-translate-x-0.5 transition-transform">Sobre Nosotros</a>
           <button className="ml-6 px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition-colors">
             Contacto
           </button>
         </nav>
 
         {/* Mobile menu button */}
-        <div className="md:hidden">
+        <div className="md:hidden ">
           <button onClick={toggleMenu} className="text-white">
             {open ? <X className="text-black" size={24} /> : <Menu size={24} />}
           </button>
@@ -40,7 +40,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-white text-gray-800 w-full absolute top-full left-0 shadow-lg transition-all">
+        <div className="md:hidden bg-white shadow-xl text-gray-800 w-full absolute top-full left-0 shadow-lg transition-colors duration-300">
           <nav className="flex flex-col gap-4 px-6 py-4">
             <a href="#home" className="hover:text-amber-500 transition-colors">Home</a>
             <a href="#services" className="hover:text-amber-500 transition-colors">Services</a>
